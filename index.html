@@ -3,40 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ashvath Suresh Kumar - Portfolio</title>
+    <title>Ashvath Suresh Kumar — Portfolio</title>
+    <meta name="description" content="Computer Science & Applied Mathematics Student at UC Berkeley. Building the future with AI, ML, and innovative software solutions.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="nav-logo">
-                <a href="#home">Ashvath Suresh Kumar</a>
+            <a href="#home" class="nav-logo">Ashvath</a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
             </div>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="#home" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#experience" class="nav-link">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#projects" class="nav-link">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </nav>
 
@@ -44,17 +40,69 @@
     <section id="home" class="hero">
         <div class="hero-container">
             <div class="hero-content">
-                <h1 class="hero-title">Hi, I'm <span class="highlight">Ashvath Suresh Kumar</span></h1>
-                <p class="hero-subtitle">Computer Science & Applied Mathematics Student at UC Berkeley</p>
-                <p class="hero-description">Passionate about machine learning, quantitative finance, and full-stack development. Building innovative solutions that bridge technology and business.</p>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">View My Work</a>
-                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+
+                <h1 class="hero-title">
+                    Building the future with
+                    <span class="gradient-text">AI & ML</span>
+                </h1>
+                <p class="hero-description">
+                    Computer Science & Applied Mathematics student at UC Berkeley, 
+                    passionate about machine learning, quantitative finance, and 
+                    creating innovative software solutions that make a real impact.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">
+                        View Projects
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        Get in touch
+                    </a>
                 </div>
             </div>
-            <div class="hero-image">
-                <div class="profile-placeholder">
-                    <i class="fas fa-user"></i>
+            <div class="hero-visual">
+                <div class="hero-card">
+                    <div class="card-header">
+                        <div class="card-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="code-line">
+                            <span class="code-keyword">class</span>
+                            <span class="code-class">Portfolio</span>
+                            <span class="code-bracket">{</span>
+                        </div>
+                        <div class="code-line indent">
+                            <span class="code-keyword">constructor</span>
+                            <span class="code-bracket">()</span>
+                            <span class="code-bracket">{</span>
+                        </div>
+                        <div class="code-line indent-2">
+                            <span class="code-keyword">this</span>
+                            <span class="code-dot">.</span>
+                            <span class="code-property">name</span>
+                            <span class="code-operator">=</span>
+                            <span class="code-string">'Ashvath'</span>
+                            <span class="code-semicolon">;</span>
+                        </div>
+                        <div class="code-line indent-2">
+                            <span class="code-keyword">this</span>
+                            <span class="code-dot">.</span>
+                            <span class="code-property">passion</span>
+                            <span class="code-operator">=</span>
+                            <span class="code-string">'AI & ML'</span>
+                            <span class="code-semicolon">;</span>
+                        </div>
+                        <div class="code-line indent">
+                            <span class="code-bracket">}</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="code-bracket">}</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -63,19 +111,36 @@
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate about technology and innovation</p>
+            </div>
             <div class="about-content">
                 <div class="about-text">
-                    <p>I'm a Computer Science and Applied Mathematics student at UC Berkeley with a passion for machine learning, quantitative finance, and software development. I love solving complex problems and building innovative solutions that make a real impact.</p>
-                    <p>Currently working as a Quantitative Analyst at Rewbix and a Senior Full Stack Developer at Aonverse, I bring together technical expertise and business acumen to create value-driven applications.</p>
+                    <p>
+                        I'm a Computer Science and Applied Mathematics student at UC Berkeley, 
+                        where I'm constantly exploring the intersection of technology and business. 
+                        My journey in tech started with a curiosity about how machines can learn 
+                        and make intelligent decisions.
+                    </p>
+                    <p>
+                        Currently working as a Quantitative Analyst at Rewbix and Senior Full Stack 
+                        Developer at Aonverse, I bring together technical expertise and business 
+                        acumen to create value-driven applications that solve real-world problems.
+                    </p>
                 </div>
-                <div class="education">
-                    <h3>Education</h3>
-                    <div class="education-item">
-                        <h4>University of California, Berkeley</h4>
-                        <p>Bachelor of Arts in Computer Science</p>
-                        <p>Bachelor of Arts in Applied Mathematics</p>
-                        <p class="graduation">Expected Graduation: May 2027</p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Technologies</div>
                     </div>
                 </div>
             </div>
@@ -85,49 +150,48 @@
     <!-- Skills Section -->
     <section class="skills">
         <div class="container">
-            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
             <div class="skills-grid">
                 <div class="skill-category">
-                    <h3>Programming Languages</h3>
+                    <h3>Languages</h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">Java</span>
                         <span class="skill-tag">Python</span>
-                        <span class="skill-tag">C#</span>
                         <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">Swift</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C#</span>
                         <span class="skill-tag">SQL</span>
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3>Web Technologies</h3>
+                    <h3>Frontend</h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">HTML/CSS</span>
-                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">React</span>
                         <span class="skill-tag">React Native</span>
+                        <span class="skill-tag">HTML/CSS</span>
                         <span class="skill-tag">Flutter</span>
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3>Machine Learning</h3>
+                    <h3>AI/ML</h3>
                     <div class="skill-tags">
                         <span class="skill-tag">TensorFlow</span>
                         <span class="skill-tag">PyTorch</span>
-                        <span class="skill-tag">Keras</span>
                         <span class="skill-tag">OpenCV</span>
-                        <span class="skill-tag">Matplotlib</span>
-                        <span class="skill-tag">NumPy</span>
                         <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3>Tools & Platforms</h3>
+                    <h3>Tools</h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">Firebase</span>
-                        <span class="skill-tag">MongoDB</span>
-                        <span class="skill-tag">Azure</span>
                         <span class="skill-tag">Git</span>
-                        <span class="skill-tag">Figma</span>
-                        <span class="skill-tag">Excel</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Azure</span>
+                        <span class="skill-tag">MongoDB</span>
                     </div>
                 </div>
             </div>
@@ -137,16 +201,20 @@
     <!-- Experience Section -->
     <section id="experience" class="experience">
         <div class="container">
-            <h2 class="section-title">Experience</h2>
-            <div class="timeline">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">My professional journey</p>
+            </div>
+            <div class="experience-timeline">
                 <div class="timeline-item">
+                    <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <div class="timeline-header">
                             <h3>Quantitative Analyst</h3>
                             <span class="company">Rewbix</span>
                             <span class="duration">Nov 2024 - Mar 2025</span>
                         </div>
-                        <ul>
+                        <ul class="timeline-details">
                             <li>Built neural network architecture with separate embedding layers for macroeconomic and stock-specific data</li>
                             <li>Reduced overfitting by implementing ensemble methods, including Balanced Random Forest</li>
                             <li>Applied K-Means clustering to group stocks with similar behavioral patterns</li>
@@ -154,13 +222,14 @@
                     </div>
                 </div>
                 <div class="timeline-item">
+                    <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <div class="timeline-header">
                             <h3>Senior Full Stack Developer</h3>
                             <span class="company">Aonverse</span>
                             <span class="duration">Jan 2024 - Present</span>
                         </div>
-                        <ul>
+                        <ul class="timeline-details">
                             <li>Developed OAuth2 authentication React.js website hosting 300+ content creators</li>
                             <li>Programmed cloud-based storage solutions using AWS S3, improving media delivery by 35%</li>
                             <li>Integrated Stripe-based payments handling 400+ secure fiat transactions</li>
@@ -169,13 +238,14 @@
                     </div>
                 </div>
                 <div class="timeline-item">
+                    <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <div class="timeline-header">
                             <h3>Software Developer Intern</h3>
                             <span class="company">The OccuNet Company</span>
                             <span class="duration">Jun 2024 - Aug 2024</span>
                         </div>
-                        <ul>
+                        <ul class="timeline-details">
                             <li>Designed unified table structure in SQL Server supporting 12 schemas</li>
                             <li>Built RESTful Blob microservice using ASP.NET Core and Azure Storage</li>
                             <li>Created C# console app automating 200K document transfers</li>
@@ -190,41 +260,89 @@
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
             <div class="projects-grid">
-                <div class="project-card">
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                    </div>
                     <div class="project-content">
                         <h3>World Exploration Engine</h3>
                         <p class="project-tech">Java • 2D Graphics • Procedural Generation</p>
-                        <p>Developed a 2D tile-based world exploration engine with procedurally generated worlds, user interactivity, and save/load functionality. Features include a minimap, environment customization, and dynamic light sources.</p>
+                        <p>
+                            A 2D tile-based world exploration engine with procedurally generated worlds, 
+                            user interactivity, and save/load functionality. Features include a minimap, 
+                            environment customization, and dynamic light sources.
+                        </p>
                         <div class="project-links">
-                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
-                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
                         </div>
                     </div>
-                </div>
-                <div class="project-card">
+                </article>
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                    </div>
                     <div class="project-content">
-                        <h3>Deep Learning Capstone Projects</h3>
+                        <h3>Deep Learning Capstone</h3>
                         <p class="project-tech">PyTorch • TensorFlow • Computer Vision</p>
-                        <p>Implemented various neural network architectures including Diffusion Models (93.17% loss reduction), ResNet (87.51% accuracy), and Vision Transformers (88.5% accuracy). Created custom YOLO-based model for real-time object detection.</p>
+                        <p>
+                            Implemented various neural network architectures including Diffusion Models 
+                            (93.17% loss reduction), ResNet (87.51% accuracy), and Vision Transformers 
+                            (88.5% accuracy). Created custom YOLO-based model for real-time detection.
+                        </p>
                         <div class="project-links">
-                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
-                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
                         </div>
                     </div>
-                </div>
-                <div class="project-card">
+                </article>
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-microscope"></i>
+                        </div>
+                    </div>
                     <div class="project-content">
                         <h3>Submodular Mutual Information Research</h3>
                         <p class="project-tech">PyTorch • Active Learning • Research</p>
-                        <p>Devised 3 algorithms within the SMI family for active learning, reducing labeling cost by 98.19% and achieving 37.5% overall accuracy gain with 63.59% increase in test accuracy for underrepresented classes.</p>
+                        <p>
+                            Devised 3 algorithms within the SMI family for active learning, reducing 
+                            labeling cost by 98.19% and achieving 37.5% overall accuracy gain with 
+                            63.59% increase in test accuracy for underrepresented classes.
+                        </p>
                         <div class="project-links">
-                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
-                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Paper</a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-file-alt"></i>
+                                Research Paper
+                            </a>
                         </div>
                     </div>
-                </div>
+                </article>
             </div>
         </div>
     </section>
@@ -232,20 +350,23 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
+            <div class="section-header">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">Ready to build something amazing together?</p>
+            </div>
             <div class="contact-content">
                 <div class="contact-info">
-                    <h3>Let's Connect</h3>
-                    <p>I'm always interested in new opportunities and collaborations. Feel free to reach out!</p>
+                    <p>
+                        I'm always interested in new opportunities and collaborations. 
+                        Whether you have a project in mind or just want to chat about 
+                        technology, feel free to reach out!
+                    </p>
                     <div class="contact-links">
                         <a href="mailto:ashvath.sureshkumar@berkeley.edu" class="contact-link">
                             <i class="fas fa-envelope"></i>
                             ashvath.sureshkumar@berkeley.edu
                         </a>
-                        <a href="tel:+14254294068" class="contact-link">
-                            <i class="fas fa-phone"></i>
-                            (425) 429-4068
-                        </a>
+
                         <a href="https://github.com/ashvathsureshkumar" class="contact-link" target="_blank">
                             <i class="fab fa-github"></i>
                             github.com/ashvathsureshkumar
@@ -263,7 +384,15 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Ashvath Suresh Kumar. All rights reserved.</p>
+            <div class="footer-content">
+                <p>&copy; 2024 Ashvath Suresh Kumar. Built with ❤️</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
         </div>
     </footer>
 
